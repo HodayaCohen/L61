@@ -8,7 +8,12 @@ hodaya.controller('Math',function Math($scope){
 
 hodaya.controller('Bryce', function Bryce($scope){//השם של הפונקציה חייב להיות שווה לשם הראשון.
     $scope.myFirstVar = 'my name2';
+});
 
-hodaya
-
+hodaya.controller('name', function Name($scope){
+    $scope.myArr = [
+        'david',
+        'kobi',
+        'dudu'
+    ]
 });
