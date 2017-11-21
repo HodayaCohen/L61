@@ -1,17 +1,4 @@
 
-
-<!DOCTYPE html>
-
-<html lang = "en" ng-app = 'bookName'>
-    <head>
-        <meta charset ="utf-8">
-        <title>My HTML bookName </title>
-        <script src="../../node_modules/angular/angular.min.js"></script>
-        <script src = "appBookname.js"></script>
-        <script src = "filter.js"></script>
-    </head>
-
-    <body>
        <div ng-controller = "student">
            <div> 
                 <input ng-model = "serch">
@@ -36,14 +23,3 @@
            </button>
        </div>
 
-       <div ng-controller="byCtrl">
-            <p> Full name:  {{user.firstname}} {{user.lastname}}</p>
-            <input placeholder="firstname" ng-model="user.firstname">
-            <input placeholder="lastname" ng-model="user.lastname">
-            <button ng-click ="order()">place order!</button>
-
-       </div>
-
-    </body>
-
-</html>

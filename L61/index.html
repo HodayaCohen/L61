@@ -1,0 +1,28 @@
+<!--  שיעור 66 תאריך 19.11.2017 על הפרויקט שעשינו עד עכשיו באנגולר להוסיף את מה שלמדנו שזה ראוטר -   -->
+<!--
+    / (דף הבית)
+    /book  
+    /דף הזמנה (לפצל אותו מבווק המקורי)
+    /contact - להוסיף לבד בקטנה
+-->         
+
+<!DOCTYPE html>
+
+<html ng-app="bookName">
+<head>
+    <meta charset ="utf-8">
+    <title>My HTML file </title>
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="../node_modules/angular-route/angular-route.min.js"></script>
+    <script src = "appBookname.js"></script>
+    <script src = "filter.js"></script>
+    
+</head>
+<body>
+    <div>
+        <a href='#!'>books</a>
+        <a href ='#!order'>order</a>
+    </div>
+    <div ng-view></div>
+</body>
+</html>
